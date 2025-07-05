@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Communist Party</title>
+  <link rel="icon" type="image/png" href="ccpimage.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-banner">
+      <img src="ccpbaner.png" alt="Communist Cat Party Banner" class="banner-image">
+    </div>
+    <div class="chinese-decorations">
+      <span class="chinese-text top-left">共产主义猫党</span>
+      <span class="chinese-text top-right">人民万岁</span>
+      <span class="chinese-text bottom-left">团结</span>
+      <span class="chinese-text bottom-right">革命</span>
+    </div>
+    <div class="social-icons">
+      <a href="https://x.com/catmmunist" class="social-icon twitter" target="_blank">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+      </a>
+      <a href="https://x.com/i/communities/1941593408893858076" class="social-icon community" target="_blank">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="communist-symbols">
+      <div class="symbol star">★</div>
+      <div class="symbol hammer-sickle">☭</div>
+      <div class="symbol star2">★</div>
+      <div class="symbol hammer-sickle2">☭</div>
+      <div class="symbol star3">★</div>
+      <div class="symbol hammer-sickle3">☭</div>
+      <div class="symbol star4">★</div>
+      <div class="symbol hammer-sickle4">☭</div>
+      <div class="symbol star5">★</div>
+      <div class="symbol hammer-sickle5">☭</div>
+    </div>
+    <div class="container">
+      <section class="hero">
+        <div class="hero-decorations">
+          <div class="hero-slogan top-left">全世界无产者，联合起来！</div>
+          <div class="hero-slogan top-right">猫咪们，联合起来！</div>
+          <div class="hero-slogan bottom-left">没有共产党就没有新中国</div>
+          <div class="hero-slogan bottom-right">伟大的中国共产党万岁！</div>
+        </div>
+        <img src="ccpimage.png" alt="Main Cat" class="hero-image">
+        <div class="hero-content">
+          <h2>Welcome to the Revolution</h2>
+          <p>Unite with your fellow comrades in the glorious struggle for meme equality. Together we shall overthrow the bourgeois humor and establish a dictatorship of the purrletariat!</p>
+          <div class="trading-buttons">
+            <a href="#" class="btn btn-bonk">Buy on Bonk</a>
+            <a href="#" class="btn btn-dex">View on DEX</a>
+          </div>
+          <div class="contract-address">
+            <label for="ca-input">Contract Address (CA):</label>
+            <div class="ca-box">
+              <input type="text" id="ca-input" value="......................................bonk" readonly>
+              <button class="copy-btn" onclick="copyCA()">Copy</button>
+            </div>
+          </div>
+          <div class="propaganda-text">
+            <span class="propaganda-item">☭ 猫咪万岁 ☭</span>
+            <span class="propaganda-item">★ 革命成功 ★</span>
+            <span class="propaganda-item">☭ 人民胜利 ☭</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="meme-gallery">
+        <div class="section-header">
+          <h2 class="section-title">Revolutionary Propaganda</h2>
+          <div class="chinese-section-text">革命宣传</div>
+        </div>
+        <div class="gallery-grid">
+          <div class="meme-card" data-meme="1">
+            <img src="ccp1.png" alt="Cat Meme 1" class="meme-image">
+            <div class="meme-overlay">
+              <button class="meme-button">View Meme</button>
+            </div>
+          </div>
+          <div class="meme-card" data-meme="2">
+            <img src="ccp2.png" alt="Cat Meme 2" class="meme-image">
+            <div class="meme-overlay">
+              <button class="meme-button">View Meme</button>
+            </div>
+          </div>
+          <div class="meme-card" data-meme="3">
+            <img src="ccp3.png" alt="Cat Meme 3" class="meme-image">
+            <div class="meme-overlay">
+              <button class="meme-button">View Meme</button>
+            </div>
+          </div>
+          <div class="meme-card" data-meme="4">
+            <img src="ccp4.png" alt="Cat Meme 4" class="meme-image">
+            <div class="meme-overlay">
+              <button class="meme-button">View Meme</button>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-decorations">
+          <span class="decoration-text left">为人民服务</span>
+          <span class="decoration-text right">猫的力量</span>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="stats-bg-text">
+          <span class="bg-chinese top">中华人民共和国万岁</span>
+          <span class="bg-chinese bottom">世界人民大团结万岁</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" id="holder-count">1,000,000</span>
+          <span class="stat-label">Holders</span>
+          <div class="stat-chinese">持有者</div>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">∞</span>
+          <span class="stat-label">Comrades United</span>
+          <div class="stat-chinese">同志团结</div>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Purrletariat Approved</span>
+          <div class="stat-chinese">猫无产阶级批准</div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Communist Cat Party</h3>
+          <p>Official property of the Chinese Communist Party</p>
+          <p>共产主义猫党官方网站</p>
+        </div>
+        <div class="footer-section">
+          <h3>Revolution Stats</h3>
+          <p>Comrades United: <span id="footer-holders">1,000,000</span></p>
+          <p>Memes Distributed: ∞</p>
+        </div>
+        <div class="footer-section">
+          <h3>Party Line</h3>
+          <p>All memes belong to the people</p>
+          <p>Seize the means of meme production</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Communist Cat Party. Owned and operated by the CCP.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal for enlarged meme view -->
+  <div id="meme-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <img id="modal-image" src="" alt="Enlarged Meme" class="modal-image">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 
